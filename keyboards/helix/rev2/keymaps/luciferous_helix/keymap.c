@@ -115,7 +115,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       ),
 
   [_LOWER] = LAYOUT( \
-      _______, _______, _______, _______, _______, _______,                   _______, _______, KC_MINS, JA_HAT,  JA_ENUN, JA_ENVL, \
+      RGB_TOG, _______, _______, _______, _______, _______,                   _______, _______, KC_MINS, JA_HAT,  JA_ENUN, JA_ENVL, \
       _______, JA_LBRC, _______, JA_RBRC, KC_ENT,  _______,                   JA_CLON, _______, KC_UP,   JA_AT,   JA_LBRC, _______, \
       EISU   , _______, _______, _______, JA_CLON, _______,                   _______, KC_LEFT, KC_DOWN, KC_RGHT, JA_RBRC, _______, \
       KC_LSFT, _______, _______, _______, _______, _______, _______, _______, _______, KC_COMM, KC_DOT,  KC_SLSH, JA_ENUN, KC_RSFT, \
